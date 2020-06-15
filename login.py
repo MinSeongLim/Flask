@@ -7,7 +7,9 @@ from flask import send_file
 
 app = Flask(__name__)
 app.secret_key = 'pknu'
-#asdfasdfasd
+
+#test
+
 @app.before_request
 def make_session_permanent():
     session.permanent = True
